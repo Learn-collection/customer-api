@@ -42,4 +42,6 @@ public class Customer {
     private LocalDateTime createdDate;
     @Column(length = 50)
     private String createdBy;
+    @Column(length = 10)
+    private String status;
 }
